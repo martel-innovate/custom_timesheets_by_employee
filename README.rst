@@ -2,7 +2,7 @@
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 
-Timesheets by Employees v15
+Timesheets by Employees v16
 ===========================
 
 This module allows to print the timesheets of selected employee.
