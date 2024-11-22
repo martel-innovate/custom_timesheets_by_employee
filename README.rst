@@ -7,40 +7,19 @@ Timesheets by Employees v16
 
 This module allows to print the timesheets of selected employee.
 
+Instructions
+=============
+
+To print an employee timesheet:
+
+Menu > Timesheets > Dropdown menu > Reporting > Print timesheet
+
 Configuration
 =============
-* No additional configurations needed
 
-Company
--------
-* `Cybrosys Techno Solutions <https://cybrosys.com/>`__
+The module is ready to use.
+The only thing to tweak to make the reports look cool  (Headers and footers + layout) is the Qweb view.
 
-Credits
--------
-* Developer:	Kavya Raveendran @ cybrosys, Contact: odoo@cybrosys.com
-                version 14: Muhammed P @cybrosys,Contact: odoo@cybrosys.com
-                version 15: Abhishek E T @cybrosys,Contact: odoo@cybrosys.com
-                version 16:Sumith Sivan @cybrosys,Contact: odoo@cybrosys.com
+Settings > Technicals > Database Structure > Views > timesheets_by_employee.report_timesheets
 
-Contacts
---------
-* Mail Contact : odoo@cybrosys.com
-* Website : https://cybrosys.com
-
-Bug Tracker
------------
-Bugs are tracked on GitHub Issues. In case of trouble, please check there if your issue has already been reported.
-
-Maintainer
-==========
-.. image:: https://cybrosys.com/images/logo.png
-   :target: https://cybrosys.com
-
-This module is maintained by Cybrosys Technologies.
-
-For support and more information, please visit `Our Website <https://cybrosys.com/>`__
-
-Further information
-===================
-HTML Description: `<static/description/index.html>`__
-
+Replace the content of the view with [this custom Qweb view](https://github.com/marcothedood/ODOO-CUSTOM-ADDONS-timesheets_by_employee/blob/master/Qweb-timesheets_by_employee.report_timesheets)
